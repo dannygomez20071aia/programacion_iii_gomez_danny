@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de vacantes</title>
+</head>
+<body>
+    <header>
+        <h1>Portal de Recursos Humanos</h1>
+        <p>Registro de una nueva vacante</p>
+    </header>
+    <hr>
+    <main>
+        <form action="#" method="get" id="registro-vacante">
+            <fieldset>
+                <legend>Información de la vacante</legend>
+                <label for="codigo">Código de vacante:</label>
+                <input type="text" id="codigo" name="codigo" placeholder="VAC-001" maxlength="10" required>
+                <br><br>
+                <label for="cargo">Nombre del cargo:</label>
+                <input type="text" id="cargo" name="cargo" placeholder="Ej. Asistente de Recursos Humanos" required>
+                <br><br>
+                <label for="area">Área:</label>
+                <select id="area" name="area" required>
+                    <option value="">Selecciona un área</option>
+                    <option value="seleccion">Selección</option>
+                    <option value="capacitacion">Capacitación</option>
+                    <option value="nomina">Nómina</option>
+                    <option value="bienestar">Bienestar laboral</option>
+                </select>
+                <br><br>
+                <label for="fecha">Fecha de publicación:</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Características del puesto</legend>
+                <p>Tipo de jornada:</p>
+                <input type="radio" id="completa" name="jornada" value="completa" required>
+                <label for="completa">Tiempo completo</label>
+                <input type="radio" id="parcial" name="jornada" value="parcial">
+                <label for="parcial">Medio tiempo</label>
+                <br><br>
+                <label for="experiencia">Experiencia requerida en años:</label>
+                <input type="number" id="experiencia" name="experiencia" min="0" max="30" value="0">
+                <p>Beneficios que ofrece:</p>
+                <input type="checkbox" id="capacitacion" name="beneficios" value="capacitacion">
+                <label for="capacitacion">Capacitación</label>
+                <br>
+                <input type="checkbox" id="seguro" name="beneficios" value="seguro">
+                <label for="seguro">Seguro de salud</label>
+                <br>
+                <input type="checkbox" id="flexibilidad" name="beneficios" value="flexibilidad">
+                <label for="flexibilidad">Horario flexible</label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Descripción del puesto</legend>
+                <label for="descripcion">Funciones y requisitos principales:</label>
+                <br>
+                <textarea id="descripcion" name="descripcion" rows="5" cols="45" maxlength="500" placeholder="Explica las tareas y habilidades necesarias..." required></textarea>
+            </fieldset>
+            <br>
+            <button type="submit">Registrar vacante</button>
+            <button type="reset">Limpiar datos</button>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <p><small>Portal de Recursos Humanos - 2026</small></p>
+    </footer>
+</body>
+</html>
