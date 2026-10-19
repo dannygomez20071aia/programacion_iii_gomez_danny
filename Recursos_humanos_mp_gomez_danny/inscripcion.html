@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripcion | Recursos Humanos</title>
+    <link rel="stylesheet" href="css/inscripcion.css">
+</head>
+<body>
+    <header>
+        <h1>Inscripción</h1>
+        <p>Completa tus datos para expresar tu interes</p>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="personajes.html">Personajes</a>
+        <a href="misiones.html">Misiones</a>
+        <a href="multimedia.html">Multimedia</a>
+        <a href="inscripcion.html">Inscripción</a>
+    </nav>
+    <main>
+        <h2>Formulario de inscripcion</h2>
+        <form action="#" method="get">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required>
+            <br><br>
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo" required>
+            <br><br>
+            <label for="telefono">Teléfono:</label><br>
+            <input type="tel" id="telefono" name="telefono">
+            <br><br>
+            <label for="area">Área de interés:</label><br>
+            <select id="area" name="area" required>
+                <option value="">Selecciona un área</option>
+                <option value="seleccion">Selección de personal</option>
+                <option value="capacitacion">Capacitación</option>
+                <option value="bienestar">Bienestar laboral</option>
+            </select>
+            <br><br>
+            <label for="mensaje">Cuéntanos sobre ti:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+        <p>Este formulario es un ejercicio y no envía datos a un servidor.</p>
+        <p><a href="index.html">Volver al inicio</a></p>
+    </main>
+    <footer>
+        <p>Proyecto de Recursos Humanos</p>
+    </footer>
+</body>
+</html>

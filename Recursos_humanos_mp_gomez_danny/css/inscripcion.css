@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: lightblue;
+    color: black;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid red;
+    background-color: white;
+}
+
+h2 {
+    color: purple;
+}
+
+form {
+    padding: 15px;
+    border: 2px solid green;
+    background-color: lightyellow;
+}
+
+label {
+    color: darkblue;
+}
+
+input, select, textarea {
+    width: 80%;
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid gray;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 14px;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+}
+

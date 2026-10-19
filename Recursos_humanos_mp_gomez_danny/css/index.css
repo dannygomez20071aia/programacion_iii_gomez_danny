@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: lightyellow;
+    color: black;
+}
+
+header {
+    padding: 20px;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    padding: 15px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+    color: blue;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid green;
+    background-color: white;
+}
+
+h2 {
+    color: red;
+}
+
+.imagen-principal {
+    width: 40%;
+}
+
+footer {
+    margin: 20px;
+    padding: 10px;
+    background-color: lightblue;
+}

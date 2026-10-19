@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: lightblue;
+    color: black;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid purple;
+    background-color: white;
+}
+
+h2 {
+    color: darkorange;
+}
+
+.imagen-principal {
+    width: 80%;
+}
+
+li {
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid green;
+}

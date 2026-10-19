@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: lightpink;
+    color: black;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid navy;
+    background-color: white;
+}
+
+h2 {
+    margin: 20px;
+    color: darkorange;
+}
+
+.imagen-principal {
+    width: 80%;
+}
+
+audio, video {
+    width: 80%;
+    margin: 10px;
+}
