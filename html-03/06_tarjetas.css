@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: bisque;
+    font: arial, sans-serif;
+
+}
+
+header{
+    background-color: black;  
+}
+
+h1{
+    color: gold;
+}
+
+main{
+    padding: 20px;
+}
+
+h2{
+    color: aqua;
+}
+.tarjeta h3{
+    margin-top: 0;
+    color: goldenrod;
+}
+.tarjeta p{
+    margin-top: 0;
+    color: goldenrod;
+}
+
+.jedi{
+    border-color: chartreuse;
+}
+.sith{
+    border-color: crimson;
+}
+footer{
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+}
+.tarjeta{
+    width: 100%;
+    max-width: 350px;
+    min-width: 100px;
+    margin: 20px;
+    padding: 25px;
+    background-color: black;
+    border: 3px solid #facc15;
+    border-radius: 15px;
+}
+.jedi{
+    border-color: #facc15;
+}
