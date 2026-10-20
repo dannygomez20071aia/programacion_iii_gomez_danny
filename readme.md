@@ -1,131 +1,190 @@
-📚 Programación III
-👨‍💻 Autor
+Repositorio Oficial - Programación III 🚀
 
-Nombre: Danny Gómez
+👤 Autor
+
+Estudiante: Gomez Danny 
+
 Materia: Programación III
 
-📖 Descripción
+Institución: Universidad UTE
 
-Este repositorio contiene los trabajos, prácticas, ejercicios y proyectos desarrollados durante la materia de Programación III.
+Descripción: Repositorio académico centralizado para el desarrollo de prácticas, talleres y proyectos integradores correspondientes a la materia de Programación III, abarcando desde los fundamentos del desarrollo web moderno hasta arquitecturas robustas full-stack con TypeScript, NestJS y ReactJS.
 
-A lo largo del curso se estudiarán diferentes tecnologías y herramientas utilizadas en el desarrollo web moderno, desde la estructura y diseño de páginas web hasta la creación de aplicaciones completas utilizando frameworks y librerías.
+📚 Índice de Contenidos
 
-🛠️ Tecnologías y conceptos
-🌐 HTML
+Introducción al Desarrollo Web
 
-HTML (HyperText Markup Language) es el lenguaje utilizado para crear la estructura y organización del contenido de una página web.
+HTML (HyperText Markup Language)
 
-Se aprenderá:
+CSS (Cascading Style Sheets)
 
-Estructura básica de una página web.
-Etiquetas HTML.
-Formularios.
-Tablas.
-Enlaces e imágenes.
-Elementos semánticos.
-🎨 CSS
+Lenguajes de Programación y Tipado
 
-CSS (Cascading Style Sheets) es el lenguaje utilizado para definir la apariencia y el diseño de las páginas web.
+JavaScript (JS)
 
-Se aprenderá:
+TypeScript (TS)
 
-Colores y tipografías.
-Márgenes y espacios.
-Flexbox y Grid.
-Diseño responsive.
-Animaciones y transiciones.
-Estilos para componentes web.
-⚡ JavaScript
+Ecosistema Full-Stack Moderno
 
-JavaScript es un lenguaje de programación que permite agregar interactividad y comportamiento dinámico a las páginas web.
+NestJS (Backend Framework)
 
-Se aprenderá:
+ReactJS (Frontend Library)
 
-Variables y constantes.
-Funciones.
-Condicionales y ciclos.
-Objetos y arreglos.
-Manipulación del DOM.
-Eventos.
-Consumo de APIs.
-🔷 TypeScript
+Estructura del Repositorio
 
-TypeScript es un lenguaje basado en JavaScript que incorpora tipado estático y otras características que facilitan el desarrollo de aplicaciones grandes y mantenibles.
+1. Introducción al Desarrollo Web
 
-Se aprenderá:
-
-Tipos de datos.
-Interfaces.
-Clases.
-Funciones tipadas.
-Objetos.
-Genéricos.
-Programación orientada a objetos.
-🦁 NestJS
-
-NestJS es un framework para desarrollar aplicaciones backend utilizando Node.js y TypeScript. Permite crear APIs y aplicaciones escalables mediante una arquitectura organizada.
-
-Se aprenderá:
-
-Creación de APIs REST.
-Controladores.
-Servicios.
-Módulos.
-Inyección de dependencias.
-Manejo de rutas.
-Conexión con bases de datos.
-⚛️ ReactJS
-
-ReactJS es una librería de JavaScript utilizada para construir interfaces de usuario mediante componentes reutilizables.
-
-Se aprenderá:
-
-Componentes.
-JSX.
-Props.
-Estado.
-Hooks.
-Eventos.
-Consumo de APIs.
-Creación de interfaces dinámicas.
-🎯 Objetivo del repositorio
-
-El objetivo de este repositorio es recopilar y organizar las actividades realizadas durante Programación III, aplicando los conocimientos adquiridos en el desarrollo Frontend y Backend.
-
-📌 Stack principal
 HTML
-  ↓
+
+Es el lenguaje de marcado estándar utilizado para estructurar y dar significado semántico al contenido de las páginas web mediante elementos y etiquetas.
+
+Ejemplo de código HTML básico:
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Programación III - UTE</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido al Repositorio de Programación III</h1>
+    </header>
+    <main>
+        <p>Este espacio contiene prácticas de desarrollo web moderno.</p>
+    </main>
+</body>
+</html>
+
+
 CSS
-  ↓
-JavaScript
-  ↓
-TypeScript
-  ↓
-ReactJS
-  ↓
-NestJS
-📂 Estructura del repositorio
-Programacion-III/
-│
-├── HTML/
-├── CSS/
-├── JavaScript/
-├── TypeScript/
-├── ReactJS/
-├── NestJS/
-└── README.md
-🚀 Tecnologías utilizadas
-HTML5
-CSS3
-JavaScript
-TypeScript
-ReactJS
-NestJS
-Node.js
-Git
-GitHub
-📝 Conclusión
 
-Durante el desarrollo de la materia se busca adquirir conocimientos fundamentales para la creación de aplicaciones web modernas, combinando tecnologías Frontend y Backend y aplicando buenas prácticas de programación.
+Es el lenguaje de hojas de estilo utilizado para describir la presentación visual, diseño, colores, fuentes y adaptabilidad responsiva de los documentos HTML.
 
-© Programación III — Danny Gómez
+Ejemplo de código CSS moderno:
+
+:root {
+    --primary-color: #2563eb;
+    --bg-color: #f8fafc;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: #1e293b;
+    margin: 0;
+    padding: 2rem;
+}
+
+h1 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+}
+
+
+2. Lenguajes de Programación y Tipado
+
+JavaScript
+
+Lenguaje interpretado de alto nivel que dota a las páginas web de interactividad, manipulación del DOM y procesamiento de datos en el cliente y servidor (Node.js).
+
+Ejemplo de código JavaScript (ES6+):
+
+// Función asíncrona para simular consumo de datos en el repositorio
+const fetchRepositoryData = async () => {
+    try {
+        const response = await fetch('https://api.github.com/users/github');
+        const data = await response.json();
+        console.log(`Usuario: ${data.login}, Repositorios públicos: ${data.public_repos}`);
+    } catch (error) {
+        console.error("Error al obtener los datos:", error);
+    }
+};
+
+fetchRepositoryData();
+
+
+TypeScript
+
+Superconjunto tipado de JavaScript que añade tipado estático opcional, interfaces y decoradores, mejorando la mantenibilidad y escalabilidad del código.
+
+Ejemplo de código TypeScript:
+
+interface Estudiante {
+    id: number;
+    nombre: string;
+    materia: string;
+    activo: boolean;
+}
+
+const registrarEstudiante = (estudiante: Estudiante): string => {
+    return `El estudiante ${estudiante.nombre} está cursando ${estudiante.materia}.`;
+};
+
+const alumno: Estudiante = {
+    id: 1,
+    nombre: "Luis Arias",
+    materia: "Programación III",
+    activo: true
+};
+
+console.log(registrarEstudiante(alumno));
+
+
+3. Ecosistema Full-Stack Moderno
+
+NestJS
+
+Framework progresivo de Node.js diseñado para construir aplicaciones de servidor altamente escalables y eficientes, utilizando TypeScript de forma nativa e implementando patrones de arquitectura orientados a objetos y inyección de dependencias.
+
+Ejemplo de código NestJS (Controlador y Servicio):
+
+// users.controller.ts
+import { Controller, Get, Param } from '@nestjs/common';
+import { UsersService } from './users.service';
+
+@Controller('users')
+export class UsersController {
+  constructor(private readonly usersService: UsersService) {}
+
+  @Get(':id')
+  findOne(@Param('id') id: string) {
+    return this.usersService.findUserById(Number(id));
+  }
+}
+
+
+ReactJS
+
+Librería de JavaScript basada en componentes y orientada al desarrollo de interfaces de usuario interactivas, dinámicas y eficientes para aplicaciones web de una sola página (SPA).
+
+Ejemplo de código ReactJS (Componente Funcional con Hooks):
+
+import React, { useState } from 'react';
+
+export const ContadorMateria: React.FC = () => {
+    const [sesiones, setSesiones] = useState<number>(1);
+
+    return (
+        <div style={{ padding: '20px', border: '1px solid #ccc', borderRadius: '8px' }}>
+            <h3>Progreso de Clases - Programación III</h3>
+            <p>Sesiones completadas: <strong>{sesiones}</strong></p>
+            <button onClick={() => setSesiones(sesiones + 1)}>
+                Avanzar Sesión
+            </button>
+        </div>
+    );
+};
+
+
+4. Estructura del Repositorio
+
+/
+├── .gitignore          # Archivo de exclusión de dependencias y cachés
+├── README.md           # Documentación principal del repositorio
+├── backend-nestjs/     # Servidor API REST desarrollado con NestJS y TypeScript
+└── frontend-react/     # Aplicación cliente desarrollada con ReactJS y TypeScript
+
+
+Desarrollado con dedicación para la materia de Programación III.

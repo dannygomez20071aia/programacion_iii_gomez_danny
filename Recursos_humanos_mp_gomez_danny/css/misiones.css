@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-color: lightcyan;
+    color: black;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid blue;
+    background-color: white;
+}
+
+h2 {
+    color: darkblue;
+}
+
+ol li {
+    margin: 12px;
+    padding: 8px;
+    background-color: aliceblue;
+    border: 1px solid skyblue;
+}
+
+.imagen-principal {
+    width: 80%;
+}

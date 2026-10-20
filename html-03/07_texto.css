@@ -1,0 +1,78 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.texto-jedi{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto-imperio{
+    font-family: 'Courier New', Courier, monospace;
+}
+.texto-40px{
+    font-size: 40px;
+}
+.texto-20px{
+    font-size: 20px;
+}
+.texto-10px{
+    font-size: 10px;
+}
+.aprediz{
+    font-weight: 300;
+}
+.caballero{
+    font-weight: 800;
+}
+.maestro{
+    font-weight: 1000;
+}
+.estilo_letra_normal{
+    font-style: normal;
+}
+.estilo_letra_italica{
+    font-style: italic;
+}
+.izquierda{
+    text-align: left;
+}
+.centro{
+    text-align: center;
+}
+.derecha{
+    text-align: right;
+    color: blue;
+}
+.importante{
+    text-decoration: underline;
+    text-decoration-line: red;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+}
+.cancelada{
+    text-decoration: line-through;
+    color:chartreuse;
+}
+.link{
+    text-decoration: none;
+}
+.titulo_mayuscula{
+    text-transform: uppercase;
+}
+.titulo_minuscula{
+    text-transform: lowercase;
+}
+.titulo_caitalizado{
+    text-transform: capitalize;
+}
+.espaciado_simple{
+    line-height: 1;
+}
+.espaciado_doble{
+    line-height: 2;
+}
+.espaciado_letras1{
+    letter-spacing: 4px;
+}
+.espaciado_letras2{
+    letter-spacing: 1px;
+}
