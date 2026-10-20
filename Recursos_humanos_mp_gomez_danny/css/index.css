@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    background-color: lightyellow;
+    background-color: lightcyan;
     color: black;
 }
 
 header {
     padding: 20px;
-    background-color: green;
+    background-color: blue;
     color: white;
     text-align: center;
 }
@@ -19,18 +19,18 @@ nav {
 
 nav a {
     margin: 10px;
-    color: blue;
+    color: darkblue;
 }
 
 main {
     margin: 20px;
     padding: 20px;
-    border: 2px solid green;
+    border: 2px solid blue;
     background-color: white;
 }
 
 h2 {
-    color: red;
+    color: darkblue;
 }
 
 .imagen-principal {

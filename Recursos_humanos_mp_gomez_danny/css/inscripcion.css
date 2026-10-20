@@ -1,24 +1,24 @@
 body {
     margin: 0;
-    background-color: lightblue;
+    background-color: aliceblue;
     color: black;
 }
 
 main {
     margin: 20px;
     padding: 20px;
-    border: 2px solid red;
+    border: 2px solid blue;
     background-color: white;
 }
 
 h2 {
-    color: purple;
+    color: darkblue;
 }
 
 form {
     padding: 15px;
-    border: 2px solid green;
-    background-color: lightyellow;
+    border: 2px solid skyblue;
+    background-color: lightcyan;
 }
 
 label {

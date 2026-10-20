@@ -1,19 +1,19 @@
 body {
     margin: 0;
-    background-color: lightpink;
+    background-color: lightblue;
     color: black;
 }
 
 main {
     margin: 20px;
     padding: 20px;
-    border: 2px solid navy;
+    border: 2px solid blue;
     background-color: white;
 }
 
 h2 {
     margin: 20px;
-    color: darkorange;
+    color: darkblue;
 }
 
 .imagen-principal {
