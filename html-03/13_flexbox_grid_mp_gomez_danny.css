@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f7f5;
+    color: #243b35;
+}
+
+.contenedor {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    background-color: #dcefe5;
+}
+
+.personaje {
+    padding: 20px;
+    border: 2px solid #82b79a;
+    background-color: white;
+}
+
+.consejo,
+.consejo2 {
+    display: grid;
+    gap: 15px;
+    padding: 20px;
+    background-color: #dcefe5;
+}
+
+.consejo {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.consejo2 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.operaciones,
+.hangar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    padding: 20px;
+    background-color: #1f493d;
+    color: white;
+}
+
+.operacion,
+.hangar div,
+.flota div,
+.naves div,
+.misiones div {
+    padding: 24px;
+    border: 2px solid #82b79a;
+    background-color: #287a56;
+    text-align: center;
+}
+
+.hangar {
+    grid-template-rows: 70px 130px 90px;
+}
+
+.flota {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 30px;
+    background-color: #1f493d;
+    color: white;
+}
+
+.naves {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    background-color: #1f493d;
+    color: white;
+}
+
+.misiones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+    background-color: #1f493d;
+    color: white;
+}
+
+.destacadas {
+    grid-column: span 2;
+    background-color: #6a994e !important;
+}
+
+.mision-importante {
+    grid-row: span 2;
+    background-color: #a56b35 !important;
+}
