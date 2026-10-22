@@ -1,0 +1,127 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: rgb(144, 255, 253);
+}
+.contenedor{
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    background-color: black;
+}
+.personaje{
+    padding: 20px;
+    background-color: grey;
+    border:2px solid rgb(255, 1, 1);
+}
+.consejo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 20px;
+    background-color: rgb(125, 173, 175);
+    color: black;
+}
+.operaciones{
+        display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+
+}
+.operacion{
+
+    padding: 30px;
+    background-color: rgb(18, 0, 92);
+    border: 2px solid rgb(48, 174, 193);
+    text-align: center;
+
+}
+.hangar{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 70px 130px 90px;
+    gap: 10px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+
+
+}
+.hangar div{
+    padding: 30px;
+    background-color: rgb(18, 0, 92);
+    border: 2px solid rgb(48, 174, 193);
+    text-align: center;
+}
+
+.flota{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 30px;
+    color: white;
+    background-color: black;
+
+
+}
+.flota div{
+    padding: 30px;
+    background-color: rgb(18, 0, 92);
+    border: 2px solid rgb(48, 174, 193);
+    text-align: center;
+}
+
+.consejo2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+    padding: 20px;
+    background-color: rgb(125, 173, 175);
+    color: black;
+}
+.naves{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+.naves div{
+    padding: 30px;
+    background-color: red;
+    border: 2px solid rgb(223, 246, 117);
+    text-align: center;
+}
+.misiones{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+.misiones div{
+    padding: 30px;
+    background-color: red;
+    border: 2px solid rgb(223, 246, 117);
+    text-align: center;
+}
+.destacadas{
+    grid-column: span 2;
+    padding: 30px;
+    background-color: rgb(64, 145, 35) !important;
+    border: 2px solid yellow;
+    text-align: center;
+}
+.mision-importante{
+    grid-row: span 2;
+    padding: 30px;
+    background-color: aqua !important;
+    border: 2px rgb(48, 255, 2) !important;
+    text-align: centers;
+
+}
