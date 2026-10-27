@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f7f5;
+    color: #243b35;
+}
+
+.contenedor1,
+.contenedor2,
+.contenedor3,
+.contenedor4 {
+    display: flex;
+    padding: 20px;
+    background-color: #dcefe5;
+}
+
+.contenedor1 {
+    flex-direction: column-reverse;
+}
+
+.contenedor2 {
+    flex-direction: row;
+}
+
+.contenedor3 {
+    flex-direction: row-reverse;
+}
+
+.contenedor4 {
+    flex-direction: column;
+}
+
+.personaje {
+    padding: 20px;
+    border: 2px solid #a56b35;
+    background-color: #1f6f5c;
+    color: white;
+}
+
+.escuadrones1,
+.escuadrones2,
+.escuadrones3,
+.escuadrones4,
+.escuadrones5,
+.escuadrones6 {
+    display: flex;
+    padding: 20px;
+    background-color: #dcefe5;
+}
+
+.escuadrones1 {
+    justify-content: space-between;
+}
+
+.escuadrones2 {
+    justify-content: flex-end;
+}
+
+.escuadrones3 {
+    justify-content: center;
+}
+
+.escuadrones4 {
+    justify-content: space-around;
+}
+
+.escuadrones5 {
+    justify-content: flex-start;
+}
+
+.escuadrones6 {
+    justify-content: space-between;
+}
+
+.escuadron {
+    padding: 20px;
+    border: 2px solid #82b79a;
+    background-color: #1f493d;
+    color: white;
+}
