@@ -1,0 +1,40 @@
+.pagina {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+        "header header"
+        "nav nav"
+        "main aside"
+        "footer footer";
+    gap: 15px;
+}
+
+header {
+    grid-area: header;
+    padding: 20px;
+    background-color: #1f493d;
+    color: white;
+}
+
+nav {
+    grid-area: main;
+    padding: 20px;
+    background-color: #dcefe5;
+}
+
+nav a {
+    margin-right: 16px;
+    color: #1f493d;
+}
+
+aside {
+    grid-area: aside;
+    padding: 20px;
+    background-color: #b8dfca;
+}
+
+footer {
+    grid-area: footer;
+    padding: 12px;
+    background-color: #e9cda8;
+}

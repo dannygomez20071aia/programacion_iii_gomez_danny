@@ -1,0 +1,86 @@
+h1{
+    color: #315f52;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.texto-jedi{
+    color: #547b5e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto-imperio{
+    color: #8a5a36;
+    font-family: 'Courier New', Courier, monospace;
+}
+.texto-40px{
+    color: #315f52;
+    font-size: 40px;
+}
+.texto-20px{
+    font-size: 20px;
+}
+.texto-10px{
+    color: #8a5a36;
+    font-size: 10px;
+}
+.aprendiz{
+    font-weight: 300;
+}
+.caballero{
+    font-weight: 800;
+}
+.maestro{
+    color: #315f52;
+    font-weight: 900;
+}
+.estilo_letra_normal{
+    font-style: normal;
+}
+.estilo_letra_italica{
+    color: #8a5a36;
+    font-style: italic;
+}
+.izquierda{
+    text-align: left;
+}
+.centro{
+    text-align: center;
+}
+.derecha{
+    text-align: right;
+    color: #547b5e;
+}
+.importante{
+    text-decoration: underline;
+    text-decoration-color: #547b5e;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+}
+.cancelada{
+    text-decoration: line-through;
+    color: #a34f46;
+}
+.link{
+    color: #315f52;
+    text-decoration: none;
+}
+.titulo_mayuscula{
+    text-transform: uppercase;
+}
+.titulo_minuscula{
+    text-transform: lowercase;
+}
+.titulo_caitalizado{
+    text-transform: capitalize;
+}
+.espaciado_simple{
+    line-height: 1;
+}
+.espaciado_doble{
+    line-height: 2;
+}
+.espaciado_letras1{
+    letter-spacing: 4px;
+}
+.espaciado_letras2{
+    letter-spacing: 1px;
+}

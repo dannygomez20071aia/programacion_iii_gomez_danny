@@ -1,0 +1,18 @@
+body { margin: 0; background-color: #102a2e; color: #eef7f5; font-family: Arial, sans-serif; text-align: center; padding: 2rem; }
+h1 { color: #f7d774; }
+.espacio { width: min(100%, 600px); padding: 20px; margin: auto; background-color: #123f43; overflow: hidden; }
+.talento { width: 110px; padding: 15px; background-color: #23836f; animation: avance 3s infinite alternate; }
+@keyframes avance { from { transform: translateX(0); } to { transform: translateX(400px); } }
+.boton-area, .mensaje { padding: 15px 25px; background-color: #176b67; color: white; border: 0; border-radius: 8px; font-size: 18px; transition: background-color .5s ease, transform .5s ease; }
+.boton-area:hover, .mensaje:hover { background-color: #d29d2d; transform: scale(1.05); }
+.tarjeta { width: min(250px, 90%); margin: 2rem auto; padding: 25px; background-color: #23836f; border-radius: 10px; transition: transform .8s ease, background-color .8s ease; }
+.tarjeta:hover { background-color: #65b7a9; transform: scale(1.05); }
+.bienestar { padding: 30px; background-color: #d3ebe5; color: #193331; }
+.salir { width: 120px; margin: 20px auto; padding: 20px; background-color: #d29d2d; transition: transform 1.2s ease-out; }
+.salir:hover { transform: translateX(250px); }
+.radar { display: grid; place-items: center; width: 200px; height: 200px; margin: auto; background-color: #d3ebe5; border: 3px solid #d29d2d; border-radius: 50%; }
+.indicador { color: #176b67; font-size: 70px; transition: transform 1s ease; }
+.indicador:hover { transform: rotate(180deg); }
+.plan { padding: 30px; background-color: #123f43; }
+.avance { width: 100px; padding: 20px; background-color: #23836f; transition: transform .5s ease; }
+.avance:hover { transform: translateX(50px) rotate(15deg) scale(1.2); }
