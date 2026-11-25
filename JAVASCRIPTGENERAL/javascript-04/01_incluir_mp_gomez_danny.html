@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incluir JavaScript - Recursos Humanos</title>
+    <script>
+        console.log('Portal de Recursos Humanos iniciado');
+    </script>
+</head>
+<body>
+    <h1>JavaScript en Recursos Humanos</h1>
+    <h2>Eventos inline</h2>
+    <button onclick="alert('Conoce nuestras oportunidades laborales')">Mostrar mensaje</button>
+    <label for="nombre">Escribe tu nombre:</label>
+    <input type="text" id="nombre" oninput="console.log('Nombre:', this.value)" placeholder="Nombre del colaborador">
+    <label for="area">Area de interes:</label>
+    <input type="text" id="area" oninput="console.log('Area:', this.value)" onblur="alert('Gracias por completar el campo')" placeholder="Ej. Capacitacion">
+    <script src="01_incluir_mp_gomez_danny.js"></script>
+</body>
+</html>

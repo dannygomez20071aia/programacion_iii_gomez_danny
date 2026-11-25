@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f3f7f5;
+    color: #243b35;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #1f493d;
+    color: white;
+}
+
+header h1 {
+    color: #d8f3dc;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+nav {
+    padding: 16px;
+    text-align: center;
+    background-color: #dcefe5;
+}
+
+nav a {
+    margin: 0 12px;
+    color: #1f493d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.mision {
+    position: relative;
+    padding: 24px;
+    margin: 16px 0;
+    border: 2px solid #82b79a;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.mision h3 {
+    color: #1f493d;
+}
+
+.estado {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.urgente {
+    background-color: #b45309;
+}
+
+.activa {
+    background-color: #287a56;
+}
+
+.completada {
+    background-color: #52796f;
+}
+
+.volver {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    color: #1f493d;
+}
+
+footer {
+    padding: 18px;
+    text-align: center;
+    background-color: #1f493d;
+    color: white;
+}
