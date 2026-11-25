@@ -1,0 +1,131 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 50px;
+
+}
+h1{
+    color: chartreuse;
+}
+.boton-jedi{
+    padding: 15px 25px;
+    background-color: rgb(255, 0, 0);
+    color: beige;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.boton-jedi:hover{
+    background-color: darkgreen ;
+}
+.boton-jedi:focus-visible{
+    background-color: aquamarine;
+    outline: 3px solid yellow;
+    outline-offset: 4px;
+}
+.tarjeta{
+    width: 250px;
+    padding:  25px;
+    background-color: rgb(27, 173, 192);
+    color: beige;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor:pointer;
+    transition: 0.8s ease;
+    transition: transform 1.5s ease;
+
+}
+
+.tarjeta:hover{
+    background-color: aquamarine;
+    transform: scale(1.05);
+}
+
+.hangar{
+    padding: 30px;
+    background-color: rgb(82, 220, 255);   
+}
+.nave{
+    width: 100px;
+    padding: 20px;
+    background-color: rgb(0, 4, 255);
+    transition:transform 1.5s ease-out;
+}
+.nave:hover{
+    transform: translate(-1000px, -50px);
+}
+.yes{
+    padding: 15px 25px;
+    background-color: rgb(255, 0, 0);
+    color: beige;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+
+}
+.yes:hover{
+        background-color: darkgreen ;
+
+}
+.radar{
+    padding: 25px;
+    display: grid;
+    place-items: center;
+    width: 200px;
+    background-color: bisque;
+    border: 3px  solid greenyellow;
+    border-radius: 50%;
+}
+.indicador{
+    color: aquamarine;
+    font-size: 70px;
+    transition: transfrom 1s ease;
+}
+.indicador:hover{
+    transform: rotate(180deg);
+}
+.hangar2{
+    padding: 30px;
+    background-color: #172033;
+
+}
+.nave2{
+    width: 100px;
+    padding: 20px;
+    background-color: #2563eb;
+    transition: transform 0.5s ease;
+}
+.nave2:hover{
+    transform: translateX(50px) rotate(15deg) scale(1.2);
+}
+
+.espacio {
+    width: 100;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #172033;
+    overflow: hidden;
+}
+ .xwing{
+    width: 100px;
+    background-color: #2563eb;
+    text-align: center;
+    animation-name: vuelo;
+    animation-duration: 3s;
+ }
+
+ @keyframes vuelo {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(200px);
+    }
+ }
