@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.portada{
+    width: 100%;
+    padding: 5vw;
+    background-color: rgb(126, 207, 210);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.portada h1{
+    font-size: 2vw;
+    color:black;
+}
+.portada p{
+    font-size: 1vw;
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bienvenida{
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 30px;
+}
+.bienvenida h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+}
+.bienvenida p{
+    font: optional;
+    color: crimson;
+}

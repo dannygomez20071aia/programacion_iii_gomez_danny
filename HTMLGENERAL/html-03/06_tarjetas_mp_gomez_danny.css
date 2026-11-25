@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-color: #18352d;
+    color: #f4ead8;
+    font-family: Arial, sans-serif;
+
+}
+
+header{
+    background-color: #18352d;  
+}
+
+h1{
+    color: #d8bd78;
+}
+
+main{
+    padding: 20px;
+}
+
+h2{
+    color: #a9d6bd;
+}
+.tarjeta h3{
+    margin-top: 0;
+    color: #d8bd78;
+}
+.tarjeta p{
+    margin-top: 0;
+    color: #d7e8dc;
+}
+
+.jedi{
+    border-color: #86b89a;
+}
+.sith{
+    border-color: #c97865;
+}
+footer{
+    background-color: #18352d;
+    padding: 15px;
+    text-align: center;
+}
+.tarjeta{
+    width: 100%;
+    max-width: 350px;
+    min-width: 100px;
+    margin: 20px;
+    padding: 25px;
+    background-color: #24483d;
+    border: 3px solid #d8bd78;
+    border-radius: 15px;
+}
+.jedi{
+    border-color: #86b89a;
+}
